@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy — Kalam</title>
+    <meta name="description" content="Grammar, sentence rewrites you approve one at a time, and an honest AI-writing signal — in Chrome and Edge, powered by your own PC. No account. Nothing you type leaves your computer." />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0a0a0b" />
+    <link rel="canonical" href="https://tanzir71.github.io/kalam-app-releases/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Kalam — good writing, unmistakably you" />
+    <meta property="og:description" content="A free writing assistant that lives in your browser and runs on your own PC. Unsigned builds with SHA-256 checksums." />
+    <meta property="og:url" content="https://tanzir71.github.io/kalam-app-releases/" />
+    <meta property="og:image" content="https://tanzir71.github.io/kalam-app-releases/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml" />
+    <link rel="preload" href="fonts/source-serif-4-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="./#main">Skip to content</a>
+    <header class="nav" aria-label="Site">
+      <a class="logo" href="./" aria-label="Kalam home">
+        <img src="assets/logo-mark.svg" width="30" height="30" alt="" />
+        <span>kalam<span class="dot">.</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Sections">
+        <a href="./#product">Product</a>
+        <a href="./#how">How it works</a>
+        <a href="./#privacy">Privacy</a>
+        <a href="./#download">Download</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-quiet btn-s" href="https://github.com/tanzir71/kalam-app-releases">GitHub</a>
+        <a class="btn btn-primary btn-s" href="./#download">Download</a>
+      </div>
+    </header>
+
+    <main id="main" class="doc"><h1>Privacy</h1>
+     <p>Kalam has no account, no sign-in, no analytics and no server of its own. What you write is checked on your computer.</p>
+     <h2>The extension</h2>
+     <p>Grammar runs inside the extension. The AI check runs on Kalam for Windows over native messaging (a local pipe between the browser and the app — no network, no open ports) or, without the app, inside the browser. Results are kept in the browser session only.</p>
+     <h2>Kalam for Windows</h2>
+     <p>The app stores model files in <code>%LOCALAPPDATA%\Kalam\models</code> and runs them locally. It goes online only when you download a model or choose “Check for updates”, and then only to this project’s GitHub releases.</p>
+     <h2>Optional runtimes</h2>
+     <p>If you point Kalam at Ollama or LM Studio, requests go to that program on your own computer. Cloud keys stay off unless you add one yourself.</p>
+     <h2>This website</h2>
+     <p>This page is static, hosted by GitHub Pages, with self-hosted fonts and no trackers. GitHub may keep standard server logs.</p></main>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div>
+          <a class="logo" href="./" aria-label="Kalam home"><img src="assets/logo-mark.svg" width="30" height="30" alt="" /><span>kalam<span class="dot">.</span></span></a>
+          <p>Free and noncommercial. Made for people who would rather keep their drafts to themselves.</p>
+        </div>
+        <nav class="footer-cols" aria-label="Footer">
+          <div><p class="label">Product</p><a href="./#download">Download</a><a href="https://github.com/tanzir71/kalam-app-releases/releases/tag/v0.3.0">Release notes</a><a href="https://github.com/tanzir71/kalam-app-releases/releases/download/v0.3.0/SHA256SUMS.txt">Checksums</a></div>
+          <div><p class="label">Project</p><a href="privacy.html">Privacy</a><a href="licenses.html">Licenses &amp; attributions</a><a href="https://github.com/tanzir71/kalam-app-releases/issues">Report an issue</a></div>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>Grammar by Harper (Apache-2.0). Each model’s license and attribution ships with its release.</p>
+        <p>© 2026 Kalam · tanzir71.github.io/kalam-app-releases</p>
+      </div>
+    </footer>
+  </body>
+</html>

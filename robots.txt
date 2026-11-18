@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tanzir71.github.io/kalam-app-releases/sitemap.xml

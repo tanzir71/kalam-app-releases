@@ -1,0 +1,21 @@
+Model licences and attributions (release models-v1)
+
+Kalam Detector 0.3 (kalam-detector-0.3-fp16.onnx, tokenizer)
+  Kalam-trained DeBERTa-v3-base sequence classifier, artifact 459b6e9d…
+  FREE FOR NONCOMMERCIAL USE ONLY. Training data includes PERSUADE 2.0 essays (CC BY-NC-SA 4.0,
+  https://creativecommons.org/licenses/by-nc-sa/4.0/), MASC (CC BY 3.0 US), public-domain/CC0
+  technical texts and PG19/Project Gutenberg passages. Backbone microsoft/deberta-v3-base (MIT).
+  Changes: fine-tuned classifier converted to ONNX fp16 (parity-checked). Not for enforcing AI-use
+  policies in education or at work. The signal can be wrong.
+
+Kalam meaning check 0.1 (kalam-meaning-0.1-fp16.onnx, tokenizer)
+  MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli @ 6f5cf0a2 — MIT. Converted to ONNX fp16.
+
+Qwen3.5 2B (qwen3.5-2b-q4_k_m.gguf)
+  Qwen/Qwen3.5-2B — Apache-2.0 (https://www.apache.org/licenses/LICENSE-2.0).
+  GGUF Q4_K_M quantization: unsloth/Qwen3.5-2B-GGUF @ f6d5376b.
+
+Qwen3.5 0.8B (qwen3.5-0.8b-*.onnx, *.onnx_data, tokenizer, configs)
+  Qwen/Qwen3.5-0.8B — Apache-2.0. ONNX q4f16 export: onnx-community/Qwen3.5-0.8B-ONNX @ 8fe9dbe3.
+
+Every file's SHA-256 is listed in manifest.json; the apps refuse files that do not match.

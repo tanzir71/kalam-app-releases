@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kalam — free, local-first writing assistant for your browser</title>
+    <meta name="description" content="Grammar, sentence rewrites you approve one at a time, and an honest AI-writing signal — in Chrome and Edge, powered by your own PC. No account. Nothing you type leaves your computer." />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0a0a0b" />
+    <link rel="canonical" href="https://tanzir71.github.io/kalam-app-releases/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Kalam — good writing, unmistakably you" />
+    <meta property="og:description" content="A free writing assistant that lives in your browser and runs on your own PC. Unsigned builds with SHA-256 checksums." />
+    <meta property="og:url" content="https://tanzir71.github.io/kalam-app-releases/" />
+    <meta property="og:image" content="https://tanzir71.github.io/kalam-app-releases/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml" />
+    <link rel="preload" href="fonts/source-serif-4-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="nav" aria-label="Site">
+      <a class="logo" href="./" aria-label="Kalam home">
+        <img src="assets/logo-mark.svg" width="30" height="30" alt="" />
+        <span>kalam<span class="dot">.</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Sections">
+        <a href="#product">Product</a>
+        <a href="#how">How it works</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#download">Download</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-quiet btn-s" href="https://github.com/tanzir71/kalam-app-releases">GitHub</a>
+        <a class="btn btn-primary btn-s" href="#download">Download</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="pill pill-accent"><img src="assets/dot-accent.svg" width="6" height="6" alt="" />Kalam 0.3.0 · for Chrome &amp; Edge, powered by your PC</p>
+          <h1 id="hero-title" class="display-xl">
+            <span>Good writing.</span>
+            <em>Unmistakably you.</em>
+          </h1>
+          <p class="lead">
+            Kalam lives in your browser, beside whatever you’re writing — grammar, sentence rewrites you approve one at a time, and an honest
+            AI-writing signal. The desktop companion runs the models on your own GPU, so nothing you type leaves your computer.
+          </p>
+          <div class="ctas">
+            <a class="btn btn-primary" href="https://github.com/tanzir71/kalam-app-releases/releases/download/v0.3.0/Kalam-Setup-0.3.0-x64.exe">Download for Windows</a>
+            <a class="btn btn-secondary" href="https://github.com/tanzir71/kalam-app-releases/releases/download/v0.3.0/kalam-extension-0.3.0-chromium.zip">Extension only (.zip)</a>
+          </div>
+          <p class="fine">Free &nbsp;·&nbsp; unsigned preview builds &nbsp;·&nbsp; Windows 10/11, Chrome &amp; Edge &nbsp;·&nbsp; SHA-256 on every release</p>
+        </div>
+
+        <div class="hero-visual" aria-label="Illustration: the Kalam side panel beside a letter in the browser">
+          <div class="glow" aria-hidden="true"></div>
+          <div class="browser" role="img" aria-label="A browser window with a letter on the left and the Kalam side panel on the right, offering two alternatives for a selected sentence.">
+            <div class="chrome" aria-hidden="true">
+              <div class="tab"><span class="tab-favicon"></span>Letter to the team</div>
+              <div class="address"><img src="assets/lock-address.svg" width="13" height="13" alt="" />notes.example/letter-to-the-team</div>
+              <div class="ext-icon"><img src="assets/kalam-mark.svg" width="18" height="18" alt="" /></div>
+            </div>
+            <div class="browser-body" aria-hidden="true">
+              <div class="canvas">
+                <article class="paper">
+                  <h2>A letter to the team</h2>
+                  <p class="paper-meta">Draft &nbsp;·&nbsp; 412 words</p>
+                  <p>Thank you for a remarkable quarter. We shipped what we promised, and we learned where our own process was slowing us down.</p>
+                  <div class="selected">
+                    Moreover, it is important to note that our unwavering focus has been instrumental in driving meaningful outcomes.
+                    <div class="toolbar">
+                      <img src="assets/kalam-mark.svg" width="18" height="18" alt="" />
+                      <span class="tool active">Rephrase</span>
+                      <span class="tool">Check AI</span>
+                      <span class="tool">Explain</span>
+                    </div>
+                  </div>
+                  <p>Next quarter we will <span class="misspelled">recieve</span> the new tools early, keep the list short, and protect our mornings for deep work.</p>
+                  <p class="signoff">With gratitude,<br />The product team</p>
+                </article>
+              </div>
+              <aside class="panel">
+                <div class="panel-head">
+                  <img src="assets/kalam-mark-panel.svg" width="22" height="22" alt="" />
+                  <strong>Kalam</strong>
+                  <span class="spacer"></span>
+                  <span class="pill pill-accent"><img src="assets/dot-accent.svg" width="6" height="6" alt="" />On this device</span>
+                </div>
+                <div class="segmented"><span>Review&nbsp;&nbsp;3</span><span class="on">Rewrite</span><span>AI check</span></div>
+                <div class="panel-body">
+                  <p class="label">Selected sentence</p>
+                  <p class="quote">“Moreover, it is important to note that our unwavering focus has been instrumental…”</p>
+                  <p class="label">Alternatives</p>
+                  <div class="alt alt-on">
+                    <p>Staying focused is what got us here.</p>
+                    <span class="pill pill-accent">Concise</span> <span class="pill pill-accent">Plain</span>
+                  </div>
+                  <div class="alt">
+                    <p>Our focus made the difference this quarter.</p>
+                    <span class="pill pill-neutral">Warm</span>
+                  </div>
+                  <div class="alt-actions"><span class="btn btn-primary btn-xs">Apply</span><span class="btn btn-quiet btn-xs">Keep original</span></div>
+                  <p class="label">AI-writing signal · 5 passages</p>
+                  <div class="map"><i></i><i></i><i class="ai"></i><i></i><i></i></div>
+                  <p class="map-note">4 human-like &nbsp;·&nbsp; 1 likely AI-assisted (selected)</p>
+                </div>
+                <div class="panel-foot"><img src="assets/dot-footer.svg" width="6" height="6" alt="" />Kalam for Windows · RTX 3060 · 0.9 s</div>
+              </aside>
+            </div>
+          </div>
+          <div class="signal-card glass" aria-hidden="true">
+            <p class="label">This draft</p>
+            <p class="signal-title">Reads as human-written</p>
+            <p class="signal-note">4 of 5 passages · checked in 0.9 s on your GPU</p>
+          </div>
+          <div class="privacy-chip glass" aria-hidden="true"><img src="assets/lock-chip.svg" width="14" height="14" alt="" />Nothing leaves this computer</div>
+        </div>
+      </section>
+
+      <ul class="trust" aria-label="Commitments">
+        <li><img src="assets/trust-lock.svg" width="18" height="18" alt="" />No account, no sign-in</li>
+        <li><img src="assets/trust-check.svg" width="18" height="18" alt="" />Nothing you type is uploaded</li>
+        <li><img src="assets/trust-offline.svg" width="18" height="18" alt="" />Works offline after setup</li>
+        <li><img src="assets/trust-heart.svg" width="18" height="18" alt="" />Free for personal, noncommercial use</li>
+      </ul>
+
+      <section id="product" class="section" aria-labelledby="product-title">
+        <p class="eyebrow">What it does</p>
+        <h2 id="product-title" class="display-m">Help on the page you’re already writing.</h2>
+        <div class="grid-4">
+          <article class="card"><p class="mono accent">01</p><h3>Grammar that never phones home</h3><p>Spelling, grammar, style and readability run on your machine in milliseconds — even with AI switched off.</p></article>
+          <article class="card"><p class="mono accent">02</p><h3>Rewrite one sentence at a time</h3><p>Select a sentence, compare a few alternatives, apply the one that sounds like you. Undo is always one click away.</p></article>
+          <article class="card"><p class="mono accent">03</p><h3>An AI-writing signal you can question</h3><p>Each passage gets its own reading, with the uncertain ones marked. It’s a signal for your own drafts, never a verdict.</p></article>
+          <article class="card"><p class="mono accent">04</p><h3>Lives where you write</h3><p>A side panel beside any text field, inline fixes as you type, and a shortcut for every other app.</p></article>
+        </div>
+      </section>
+
+      <section id="how" class="section section-center" aria-labelledby="how-title">
+        <p class="eyebrow">How it fits together</p>
+        <h2 id="how-title" class="display-m">A browser extension, with an engine beside it.</h2>
+        <p class="lead lead-narrow">
+          Write in the browser as usual. The companion app keeps the models on your PC and does the heavy lifting — the two talk directly, never over the internet.
+        </p>
+        <div class="diagram">
+          <article class="card card-l">
+            <header><span class="tile"><img src="assets/icon-browser.svg" width="22" height="22" alt="" /></span><div><p class="label">In your browser</p><h3>Kalam extension</h3></div></header>
+            <ul class="checks">
+              <li><img src="assets/icon-check.svg" width="16" height="16" alt="" />Side panel next to any text field</li>
+              <li><img src="assets/icon-check.svg" width="16" height="16" alt="" />Inline suggestions you apply or dismiss</li>
+              <li><img src="assets/icon-check.svg" width="16" height="16" alt="" />Works on its own with a lighter in-browser AI check</li>
+            </ul>
+          </article>
+          <div class="link">
+            <span class="link-pill"><img src="assets/icon-link.svg" width="14" height="14" alt="" />Native messaging</span>
+            <span class="fine">local only</span>
+          </div>
+          <article class="card card-l">
+            <header><span class="tile"><img src="assets/icon-monitor.svg" width="22" height="22" alt="" /></span><div><p class="label">On your PC</p><h3>Kalam for Windows</h3></div></header>
+            <ul class="checks">
+              <li><img src="assets/icon-check.svg" width="16" height="16" alt="" />Downloads models once, checks every file’s SHA-256</li>
+              <li><img src="assets/icon-check.svg" width="16" height="16" alt="" />Runs them on your GPU — about a second per check</li>
+              <li><img src="assets/icon-check.svg" width="16" height="16" alt="" />Global shortcut for apps outside the browser</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="privacy" class="section" aria-labelledby="privacy-title">
+        <p class="eyebrow">Privacy</p>
+        <h2 id="privacy-title" class="display-m">Choose how much AI. Keep all of it.</h2>
+        <p class="lead lead-left">Every level runs on hardware you control. Kalam never switches to a cloud service on its own.</p>
+        <div class="grid-3">
+          <article class="card"><span class="pill pill-neutral"><img src="assets/dot-neutral.svg" width="6" height="6" alt="" />Always on</span><p class="mono accent">LEVEL 0</p><h3>Rules only</h3><p>Grammar, spelling, style and readability. Built into the extension — nothing to download.</p></article>
+          <article class="card"><span class="pill pill-accent"><img src="assets/dot-accent.svg" width="6" height="6" alt="" />Recommended</span><p class="mono accent">LEVEL 1</p><h3>With the companion</h3><p>Models download once from Kalam’s GitHub releases and run on your GPU. Without it, a smaller AI check runs inside the browser.</p></article>
+          <article class="card"><span class="pill pill-neutral"><img src="assets/dot-neutral.svg" width="6" height="6" alt="" />Optional</span><p class="mono accent">LEVEL 2</p><h3>Your own runtime</h3><p>Already use Ollama or LM Studio? Point Kalam at it. Cloud keys stay off unless you add one yourself.</p></article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="compare-title">
+        <p class="eyebrow">How it’s different</p>
+        <h2 id="compare-title" class="display-m">Kalam vs. a typical cloud writing assistant</h2>
+        <div class="table-wrap">
+          <table class="compare">
+            <thead><tr><th scope="col"><span class="visually-hidden">Aspect</span></th><th scope="col">Kalam</th><th scope="col">Typical cloud assistant</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Where your text is processed</th><td data-label="Kalam">On your device</td><td data-label="Typical cloud assistant">On the company’s servers</td></tr>
+              <tr><th scope="row">Account required</th><td data-label="Kalam">No — not even an email address</td><td data-label="Typical cloud assistant">Yes, for most features</td></tr>
+              <tr><th scope="row">Works offline</th><td data-label="Kalam">Yes, after the one-time model download</td><td data-label="Typical cloud assistant">No</td></tr>
+              <tr><th scope="row">AI-writing check</th><td data-label="Kalam">On-device, shows uncertainty per passage</td><td data-label="Typical cloud assistant">Server-side, often on paid tiers</td></tr>
+              <tr><th scope="row">Price</th><td data-label="Kalam">Free (noncommercial)</td><td data-label="Typical cloud assistant">Free tier with limits, then a subscription</td></tr>
+              <tr><th scope="row">Where to get it</th><td data-label="Kalam">Unsigned builds in a public GitHub repo, with checksums</td><td data-label="Typical cloud assistant">App and browser stores</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="fine">Comparison describes the common model of cloud writing assistants, not any single product. Features change; check each vendor’s current terms.</p>
+      </section>
+
+      <section id="download" class="section" aria-labelledby="download-title">
+        <p class="eyebrow">Download</p>
+        <h2 id="download-title" class="display-m">Everything is unsigned. Everything is checkable.</h2>
+        <p class="lead lead-left">
+          Kalam is free, so there are no paid signing certificates — and no store in between. Every file in the public repo comes with a SHA-256
+          checksum you can verify before running it.
+        </p>
+        <div class="grid-3">
+          <article class="card" aria-label="Kalam for Windows">
+            <div class="dl-head"><h3>Kalam for Windows</h3><span class="pill pill-accent"><img src="assets/dot-accent.svg" width="6" height="6" alt="" />Recommended</span></div>
+            <p class="mono dl-file">Kalam-Setup-0.3.0-x64.exe · companion + extension</p>
+            <p class="dl-steps">Install, then follow “Connect your browser”: it opens the extensions page and points to the folder to load. SmartScreen will ask — choose More info → Run anyway once the checksum matches.</p>
+            <p class="dl-meta">45.2 MB · SHA-256 dad689499c7505d0f1bb7b567fb735dc40ac333f161cde6b2cde06a2152f7ef6</p>
+            <a class="btn btn-primary" href="https://github.com/tanzir71/kalam-app-releases/releases/download/v0.3.0/Kalam-Setup-0.3.0-x64.exe">Download for Windows</a>
+          </article>
+          <article class="card" aria-label="Extension only">
+            <div class="dl-head"><h3>Extension only</h3><span class="pill pill-neutral"><img src="assets/dot-neutral.svg" width="6" height="6" alt="" />Chrome · Edge</span></div>
+            <p class="mono dl-file">kalam-extension-0.3.0-chromium.zip</p>
+            <p class="dl-steps">For Chrome and Edge. Unzip, turn on Developer mode, choose Load unpacked. Grammar works at once; the AI check downloads a smaller in-browser model when you ask.</p>
+            <p class="dl-meta">22.8 MB · SHA-256 2fa0b51f18ae77c4457510adf99676613069d4bf72f0a93465c7564a8a7f57a8</p>
+            <a class="btn btn-secondary" href="https://github.com/tanzir71/kalam-app-releases/releases/download/v0.3.0/kalam-extension-0.3.0-chromium.zip">Download .zip</a>
+          </article>
+          <article class="card" aria-label="Firefox">
+            <div class="dl-head"><h3>Firefox</h3><span class="pill pill-ai"><img src="assets/dot-amber.svg" width="6" height="6" alt="" />Experimental</span></div>
+            <p class="mono dl-file">kalam-extension-0.3.0-firefox-unsigned.xpi</p>
+            <p class="dl-steps">Unsigned add-ons only install in Firefox Developer Edition, Nightly or ESR with signature checks turned off. Experimental.</p>
+            <p class="dl-meta">22.8 MB · SHA-256 5600819644da442c20c444c3c70d0d01fab8580a47236d82612c4ecc1071e324</p>
+            <a class="btn btn-secondary" href="https://github.com/tanzir71/kalam-app-releases/releases/download/v0.3.0/kalam-extension-0.3.0-firefox-unsigned.xpi">Download .xpi</a>
+          </article>
+        </div>
+        <div class="verify">
+          <strong>Verify</strong>
+          <code>Get-FileHash .\Kalam-Setup-0.3.0-x64.exe -Algorithm SHA256</code>
+          <span>Compare with <a href="https://github.com/tanzir71/kalam-app-releases/releases/download/v0.3.0/SHA256SUMS.txt">SHA256SUMS.txt</a> on the <a href="https://github.com/tanzir71/kalam-app-releases/releases/tag/v0.3.0">release page</a>.</span>
+        </div>
+        <details class="howto">
+          <summary>Install steps for an unsigned build</summary>
+          <ol>
+            <li>Download the installer and check its SHA-256 (command above) against SHA256SUMS.txt.</li>
+            <li>Windows SmartScreen shows “Windows protected your PC” for unsigned apps: choose <em>More info → Run anyway</em> once the checksum matches. It installs for your user only — no administrator rights.</li>
+            <li>Kalam for Windows opens “Connect your browser”: open <code>chrome://extensions</code> or <code>edge://extensions</code>, turn on Developer mode, choose Load unpacked and pick <code>%LOCALAPPDATA%\Kalam\extension</code>.</li>
+            <li>Open Models in Kalam for Windows and download Kalam Detector 0.3 and the writer. Every file is checked with SHA-256 before use.</li>
+          </ol>
+        </details>
+      </section>
+
+      <section class="section responsible" aria-labelledby="responsible-title">
+        <div>
+          <p class="eyebrow">Responsible use</p>
+          <h2 id="responsible-title" class="display-m">A writing tool, not a disguise.</h2>
+        </div>
+        <div class="responsible-copy">
+          <p>Rewrite suggestions help your own writing read naturally and can reduce false flags on work you wrote. Don’t use them to misrepresent authorship where a school, publisher or employer forbids AI help.</p>
+          <p>The AI-writing signal can be wrong — especially on short, technical or heavily edited text, and for writers whose first language isn’t English. It is not a probability of authorship. Never use it to judge someone else’s work.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div>
+          <a class="logo" href="./" aria-label="Kalam home"><img src="assets/logo-mark.svg" width="30" height="30" alt="" /><span>kalam<span class="dot">.</span></span></a>
+          <p>Free and noncommercial. Made for people who would rather keep their drafts to themselves.</p>
+        </div>
+        <nav class="footer-cols" aria-label="Footer">
+          <div><p class="label">Product</p><a href="#download">Download</a><a href="https://github.com/tanzir71/kalam-app-releases/releases/tag/v0.3.0">Release notes</a><a href="https://github.com/tanzir71/kalam-app-releases/releases/download/v0.3.0/SHA256SUMS.txt">Checksums</a></div>
+          <div><p class="label">Project</p><a href="privacy.html">Privacy</a><a href="licenses.html">Licenses &amp; attributions</a><a href="https://github.com/tanzir71/kalam-app-releases/issues">Report an issue</a></div>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>Grammar by Harper (Apache-2.0). Each model’s license and attribution ships with its release.</p>
+        <p>© 2026 Kalam · tanzir71.github.io/kalam-app-releases</p>
+      </div>
+    </footer>
+  </body>
+</html>
